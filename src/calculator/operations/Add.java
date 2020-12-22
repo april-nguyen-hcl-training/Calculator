@@ -1,9 +1,9 @@
 package calculator.operations;
 
-public class Add extends Operation{
+public final class Add extends Operation{
     public Add(float a, float b) {
-        numberA = a;
-        numberB = b;
+        this.numberA = a;
+        this.numberB = b;
     }
     @Override
     public float result() {
